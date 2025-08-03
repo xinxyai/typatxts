@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <title>typatxts</title>
+    <meta name="description" content="A website with a lot of fonts and emojis to copy and paste to use!" />
+    <link rel="stylesheet" href="style-page1.css">  
+</head>
+
+<header>
+    <h1><bold>typatxts</bold></h1>
+</header>
+
+
+<body>
+
+  <div style="text-align: center; padding-top: 10px;">
+   <a href="typatxts-homepage.html">Home Page</a> |
+   <a href="typatxts-alphabetlistpage.html">Alphabetical List</a> |
+   <a href="typatxts-emojis.html">Emojis</a>
+  </div>
+
+<p>Hello wonderful people and Welcome!<br>
+This is a wesite where you can find pretty fonts and emojis to copy and paste to use!<br> <3 </p>
+
+  <main>
+
+ <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+      background-color: #f3beda;
+    }
+
+    .input-group {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+    textarea {
+      width: 300px;
+      height: 100px;
+      padding: 10px;
+      font-size: 16px;
+      background:#f1f37d;
+      border:5px solid #89fbff;
+    }
+
+    select {
+      padding: 8px;
+      font-size: 16px;
+      height: 40px;
+    }
+
+    .output {
+      margin-top: 20px;
+      padding: 20px;
+      background: #f1f37d;
+      border: 1px solid #89fbff;
+      font-size: 24px;
+      border-radius: 8px;
+      min-height: 60px;
+      width: 320px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2><bold>Try Out Some Fonts!</bold></h2>
+
+  <div class="input-group">
+    <textarea id="textInput" placeholder="Type your text here..."></textarea>
+
+    <select id="fontSelect" style="font-size:16px; height: 40px; width: 350px;">
+  <option style="font-family: Arial, sans-serif;" value="Arial">Arial, sans-serif</option>
+  <option style="font-family: 'Arial Black', sans-serif;" value="Arial Black">Arial Black, sans-serif</option>
+  <option style="font-family: Calibri, sans-serif;" value="Calibri">Calibri, sans-serif</option>
+  <option style="font-family: Cambria, serif;" value="Cambria">Cambria, serif</option>
+  <option style="font-family: Candara, sans-serif;" value="Candara">Candara, sans-serif</option>
+  <option style="font-family: 'Century Gothic', sans-serif;" value="Century Gothic">Century Gothic, sans-serif</option>
+  <option style="font-family: Consolas, monospace;" value="Consolas">Consolas, monospace</option>
+  <option style="font-family: Courier, monospace;" value="Courier">Courier, monospace</option>
+  <option style="font-family: 'Courier New', monospace;" value="Courier New">Courier New, monospace</option>
+  <option style="font-family: 'Franklin Gothic Medium', sans-serif;" value="Franklin Gothic Medium">Franklin Gothic Medium, sans-serif</option>
+  <option style="font-family: Garamond, serif;" value="Garamond">Garamond, serif</option>
+  <option style="font-family: Georgia, serif;" value="Georgia">Georgia, serif</option>
+  <option style="font-family: 'Gill Sans', sans-serif;" value="Gill Sans">Gill Sans, sans-serif</option>
+  <option style="font-family: Helvetica, sans-serif;" value="Helvetica">Helvetica, sans-serif</option>
+  <option style="font-family: Impact, sans-serif;" value="Impact">Impact, sans-serif</option>
+  <option style="font-family: 'Lucida Console', monospace;" value="Lucida Console">Lucida Console, monospace</option>
+  <option style="font-family: 'Lucida Sans Unicode', sans-serif;" value="Lucida Sans Unicode">Lucida Sans Unicode, sans-serif</option>
+  <option style="font-family: Palatino, serif;" value="Palatino">Palatino, serif</option>
+  <option style="font-family: 'Palatino Linotype', serif;" value="Palatino Linotype">Palatino Linotype, serif</option>
+  <option style="font-family: 'Segoe UI', sans-serif;" value="Segoe UI">Segoe UI, sans-serif</option>
+  <option style="font-family: Tahoma, sans-serif;" value="Tahoma">Tahoma, sans-serif</option>
+  <option style="font-family: Times, serif;" value="Times">Times, serif</option>
+  <option style="font-family: 'Times New Roman', serif;" value="Times New Roman">Times New Roman, serif</option>
+  <option style="font-family: 'Trebuchet MS', sans-serif;" value="Trebuchet MS">Trebuchet MS, sans-serif</option>
+  <option style="font-family: Verdana, sans-serif;" value="Verdana">Verdana, sans-serif</option>
+  <option style="font-family: 'Helvetica Neue', Helvetica, sans-serif;" value="Helvetica Neue">Helvetica Neue, Helvetica, sans-serif</option>
+  <option style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" value="Segoe UI Full">Segoe UI, Tahoma, Geneva, Verdana, sans-serif</option>
+  <option style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;" value="Lucida Grande">Lucida Grande, Lucida Sans Unicode, sans-serif</option>
+  <option style="font-family: 'Courier New', Courier, monospace;" value="Courier New Full">Courier New, Courier, monospace</option>
+  <option style="font-family: Georgia, 'Times New Roman', Times, serif;" value="Georgia Full">Georgia, Times New Roman, Times, serif</option>
+  <option style="font-family: 'Trebuchet MS', Tahoma, sans-serif;" value="Trebuchet MS Full">Trebuchet MS, Tahoma, sans-serif</option>
+  <option style="font-family: Arial, Helvetica, sans-serif;" value="Arial Helvetica">Arial, Helvetica, sans-serif</option>
+  <option style="font-family: Verdana, Geneva, sans-serif;" value="Verdana Geneva">Verdana, Geneva, sans-serif</option>
+  <option style="font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;" value="Gill Sans MT">Gill Sans, Gill Sans MT, sans-serif</option>
+  <option style="font-family: Palatino, 'Palatino Linotype', 'Book Antiqua', serif;" value="Palatino Full">Palatino, Palatino Linotype, Book Antiqua, serif</option>
+  <option style="font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, sans-serif;" value="Calibri Full">Calibri, Candara, Segoe, Segoe UI, Optima, sans-serif</option>
+  <option style="font-family: Impact, Charcoal, sans-serif;" value="Impact Charcoal">Impact, Charcoal, sans-serif</option>
+  <option style="font-family: Tahoma, Geneva, sans-serif;" value="Tahoma Geneva">Tahoma, Geneva, sans-serif</option>
+  <option style="font-family: 'Lucida Console', Monaco, monospace;" value="Lucida Console Monaco">Lucida Console, Monaco, monospace</option>
+  <option style="font-family: 'Lucida Sans Typewriter', 'Lucida Console', monospace;" value="Lucida Sans Typewriter">Lucida Sans Typewriter, Lucida Console, monospace</option>
+  <option style="font-family: Consolas, 'Liberation Mono', monospace;" value="Consolas Liberation">Consolas, Liberation Mono, monospace</option>
+  <option style="font-family: 'MS Serif', 'New York', serif;" value="MS Serif New York">MS Serif, New York, serif</option>
+  <option style="font-family: 'MS Sans Serif', Geneva, sans-serif;" value="MS Sans Serif Geneva">MS Sans Serif, Geneva, sans-serif</option>
+  <option style="font-family: Constantia, 'Lucida Bright', serif;" value="Constantia Lucida Bright">Constantia, Lucida Bright, serif</option>
+  <option style="font-family: Corbel, Candara, sans-serif;" value="Corbel Candara">Corbel, Candara, sans-serif</option>
+  <option style="font-family: Cambria, Georgia, serif;" value="Cambria Georgia">Cambria, Georgia, serif</option>
+  <option style="font-family: Geneva, Tahoma, sans-serif;" value="Geneva Tahoma">Geneva, Tahoma, sans-serif</option>
+  <option style="font-family: Rockwell, 'Courier Bold', Courier, monospace;" value="Rockwell Courier Bold">Rockwell, Courier Bold, Courier, monospace</option>
+  <option style="font-family: Baskerville, 'Times New Roman', serif;" value="Baskerville Times">Baskerville, Times New Roman, serif</option>
+  <option style="font-family: 'American Typewriter', serif;" value="American Typewriter">American Typewriter, serif</option>
+  <option style="font-family: 'Avenir', sans-serif;" value="Avenir">Avenir, sans-serif</option>
+  <option style="font-family: 'Avenir Next', sans-serif;" value="Avenir Next">Avenir Next, sans-serif</option>
+  <option style="font-family: 'Bookman', serif;" value="Bookman">Bookman, serif</option>
+  <option style="font-family: 'Didot', serif;" value="Didot">Didot, serif</option>
+  <option style="font-family: 'Futura', sans-serif;" value="Futura">Futura, sans-serif</option>
+  <option style="font-family: 'Geneva', sans-serif;" value="Geneva">Geneva, sans-serif</option>
+  <option style="font-family: 'Goudy Old Style', serif;" value="Goudy Old Style">Goudy Old Style, serif</option>
+  <option style="font-family: 'Hoefler Text', serif;" value="Hoefler Text">Hoefler Text, serif</option>
+  <option style="font-family: 'Monaco', monospace;" value="Monaco">Monaco, monospace</option>
+  <option style="font-family: 'Optima', sans-serif;" value="Optima">Optima, sans-serif</option>
+  <option style="font-family: 'Perpetua', serif;" value="Perpetua">Perpetua, serif</option>
+  <option style="font-family: 'Sitka Text', serif;" value="Sitka Text">Sitka Text, serif</option>
+  <option style="font-family: 'Symbol', serif;" value="Symbol">Symbol, serif</option>
+  <option style="font-family: 'Tw Cen MT', sans-serif;" value="Tw Cen MT">Tw Cen MT, sans-serif</option>
+  <option style="font-family: 'Wide Latin', serif;" value="Wide Latin">Wide Latin, serif</option>
+  <option style="font-family: 'Book Antiqua', serif;" value="Book Antiqua">Book Antiqua, serif</option>
+  <option style="font-family: 'Lucida Bright', serif;" value="Lucida Bright">Lucida Bright, serif</option>
+  <option style="font-family: 'Lucida Fax', serif;" value="Lucida Fax">Lucida Fax, serif</option>
+  <option style="font-family: 'MS Gothic', monospace;" value="MS Gothic">MS Gothic, monospace</option>
+  <option style="font-family: 'MS Mincho', serif;" value="MS Mincho">MS Mincho, serif</option>
+  <option style="font-family: 'OCR A Std', monospace;" value="OCR A Std">OCR A Std, monospace</option>
+  <option style="font-family: Papyrus, fantasy;" value="Papyrus">Papyrus, fantasy</option>
+  <option style="font-family: 'Century Schoolbook', serif;" value="Century Schoolbook">Century Schoolbook, serif</option>
+  <option style="font-family: 'Brush Script MT', cursive;" value="Brush Script MT">Brush Script MT, cursive</option>
+  <option style="font-family: Copperplate, serif;" value="Copperplate">Copperplate, serif</option>
+  <option style="font-family: 'Franklin Gothic Book', sans-serif;" value="Franklin Gothic Book">Franklin Gothic Book, sans-serif</option>
+  <option style="font-family: 'Franklin Gothic Demi', sans-serif;" value="Franklin Gothic Demi">Franklin Gothic Demi, sans-serif</option>
+  <option style="font-family: 'Franklin Gothic Heavy', sans-serif;" value="Franklin Gothic Heavy">Franklin Gothic Heavy, sans-serif</option>
+  <option style="font-family: 'Franklin Gothic Medium Cond', sans-serif;" value="Franklin Gothic Medium Cond">Franklin Gothic Medium Cond, sans-serif</option>
+  <option style="font-family: 'Franklin Gothic Medium Italic', sans-serif;" value="Franklin Gothic Medium Italic">Franklin Gothic Medium Italic, sans-serif</option>
+  <option style="font-family: 'Lucida Handwriting', cursive;" value="Lucida Handwriting">Lucida Handwriting, cursive</option>
+  <option style="font-family: 'Segoe Print', cursive;" value="Segoe Print">Segoe Print, cursive</option>
+  <option style="font-family: 'Segoe Script', cursive;" value="Segoe Script">Segoe Script, cursive</option>
+</select>
+  </div>
+
+  
+  <div class="output" id="textOutput">Your styled text will appear here...Copy it on clipboard to use!</div>
+  
+  <script>
+
+    const textInput = document.getElementById("textInput");
+    const fontSelect = document.getElementById("fontSelect");
+    const textOutput = document.getElementById("textOutput");
+
+    function updateText() {
+      textOutput.textContent = textInput.value;
+      textOutput.style.fontFamily = fontSelect.value;
+    }
+
+    textInput.addEventListener("input", updateText);
+    fontSelect.addEventListener("change", updateText);
+  </script>
+
+</body>
+</html>
+
+
+
+  

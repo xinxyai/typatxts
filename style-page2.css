@@ -1,0 +1,48 @@
+html{
+    background-color: rgb(163, 209, 211);
+}
+
+h1 {
+    font-family: 'Old English Text MT', serif;
+    font-size:80px;
+}
+
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      text-align: center;         
+      color: white;              
+      padding: 20px 0 10px 0;      
+      position: relative;
+      background: none;     
+    }      
+   
+div {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #af926b
+    
+}
+div {
+    margin-left:50px;
+}
+
+a {
+  color:#f1ff2a;
+}
+
+h3 {
+    background-color:#ff9ac9;
+    margin-left: 30px;
+    padding:10px 15px 20px 15px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.text-container {
+    margin: 0 auto;
+}
